@@ -1,0 +1,21 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-page-content {
+  margin-top: 12rem;
+  margin-bottom: 15rem;
+}
+
+.login-page-icon {
+  color: green;
+  font-size: 3rem;
+  border: 2px solid #86b07d;
+  border-radius: 5rem;
+  padding: 1rem;
+}

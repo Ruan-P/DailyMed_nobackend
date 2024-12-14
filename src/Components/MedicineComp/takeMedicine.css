@@ -1,0 +1,74 @@
+/* .take-medicine-page {
+  background-color: #fafafa;
+  height: 100vh;
+} */
+
+.today-date {
+  margin-top: 0;
+  padding-top: 4.3rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(39, 50, 42);
+}
+
+.today-date-underArrow {
+  margin-top: 0.5rem;
+  color: rgb(39, 50, 42);
+}
+
+.today-take-medicine-list {
+  align-items: center;
+  text-align: center;
+}
+
+.selectedTime-btn {
+  margin-bottom: 0.8rem;
+  border: 1px solid #86b07d;
+  background-color: #f7f7f7;
+  color: #86b07d;
+  padding: 0.2rem;
+  width: 30%;
+  border-radius: 0.2rem;
+}
+
+.selectedTime-btn:hover {
+  background-color: #86b07d;
+  color: white;
+}
+
+.selectedTime-btn:active {
+  background-color: #86b07d;
+  color: white;
+}
+
+.selectedTime-btn.active {
+  background-color: #86b07d;
+  color: white;
+}
+
+.add-medication-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.medication-btn-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-medication-btn,
+.edit-medication-btn {
+  border: none;
+  background: none;
+  /*border: 1px solid #86b07d;*/
+  /* background-color: #f7f7f7; */
+  color: #7a7a7a;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin-top: 0.6rem;
+  margin-bottom: -0.6rem;
+}

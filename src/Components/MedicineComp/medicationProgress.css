@@ -1,0 +1,47 @@
+.medication-container {
+  border-radius: 0.8rem;
+  margin: 1rem 0.5rem 0.5rem;
+  padding: 1.2rem;
+  height: 11rem;
+  width: 80%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.medication-container h3 a {
+  text-decoration-line: none;
+  font-weight: bold;
+  color: rgb(65, 80, 63);
+}
+
+.medication-container p {
+  color: rgb(118, 139, 94);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 0rem;
+  margin: 0 0 1rem;
+}
+
+.medication-container ul {
+  padding: 0;
+  margin-left: 1.1rem;
+}
+
+.medication-container li {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgb(65, 80, 63);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 1.25rem;
+  background-color: #86b07d;
+  transition: width 0.3s ease;
+  border-radius: 1rem;
+}

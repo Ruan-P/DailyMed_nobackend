@@ -1,0 +1,57 @@
+.medicine-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #dadada;
+  padding: 0.5rem;
+}
+
+.medicine-list-none {
+  margin-top: 0.5cm;
+  text-align: center;
+  text-decoration: underline #7a7a7a;
+}
+
+.medicine-list img,
+.medicine-list p {
+  flex: 6;
+}
+
+.medicine-list img {
+  border-radius: 0.8rem;
+}
+
+.medicine-details-btn {
+  flex: 3;
+  border: none;
+  border-radius: 0.8rem;
+  width: 7rem;
+  font-size: 0.8rem;
+  height: 1.6rem;
+  color: #7a7a7a;
+  font-weight: bold;
+  background-color: #dadada;
+}
+
+.medicine-list p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* 공통 스타일 */
+.switch-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-right: 10px;
+  font-weight: bold;
+}

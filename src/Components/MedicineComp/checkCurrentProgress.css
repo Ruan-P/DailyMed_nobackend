@@ -1,0 +1,45 @@
+.check-current-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.4rem;
+}
+
+.check-current-progress h2 {
+  margin-bottom: 0.2rem;
+  color: rgb(65, 80, 63);
+}
+
+.user-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.stat-item {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  width: 7rem;
+  height: 4rem;
+  margin-top: 0.7rem;
+  border-radius: 0.8rem;
+  padding: 1.3rem;
+}
+
+.stat-item span {
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(65, 80, 63);
+}
+
+.stat-item span a {
+  text-decoration-line: none;
+  color: rgb(65, 80, 63);
+}
+
+.stat-item p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 0rem;
+  color: rgb(118, 139, 94);
+}
