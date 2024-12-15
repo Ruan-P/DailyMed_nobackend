@@ -24,7 +24,7 @@
 
 .medicine-search-list p {
   color: rgb(65, 80, 63);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -50,11 +50,13 @@
   display: flex;
   align-items: center;
   user-select: none;
+  margin: 0.5rem;
 }
 
 .medicine-search-list span {
   margin-left: 0.25rem;
   color: rgb(65, 80, 63);
+  font-size: 1rem;
 }
 
 .medicine-search-list input {

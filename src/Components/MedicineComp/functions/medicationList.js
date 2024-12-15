@@ -7,7 +7,7 @@ const MedicationList = ({ medications }) => {
       {medications.length > 0 ? (
         medications.map((med, index) => (
           <div key={index} className="medicine-list">
-            <img src={med.item_image} alt={med.name} width="25%" />
+            <img src={med.item_image} alt={med.name} width="20%" />
             <p>{med.drug_name}</p>
             <button
               onClick={() => alert(med.details)}
