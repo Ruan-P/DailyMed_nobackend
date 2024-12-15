@@ -1,8 +1,13 @@
 .user-profile-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #86b07d;
-  padding-bottom: 2rem;
+  /* border-bottom: 2px solid rgb(118, 139, 94); */
+  /* background-color: rgb(240, 238, 236, 0.8); */
+  /* border: 1px solid rgba(240, 238, 236, 1); */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 .user-profile-box {
@@ -11,7 +16,7 @@
 }
 
 .user-profile-icon {
-  color: #86b07d;
+  color: rgb(65, 80, 63);
   font-size: 3.5rem !important;
 }
 
@@ -19,10 +24,11 @@
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
+  color: rgb(65, 80, 63);
 }
 
 .profile-today-text {
   margin-top: 1.3rem;
   font-size: 0.9rem;
-  color: #86b07d;
+  color: rgb(65, 80, 63);
 }

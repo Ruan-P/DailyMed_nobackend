@@ -6,17 +6,18 @@
   align-items: center;
   text-align: center;
   margin-top: 0.3rem;
+  margin-bottom: 0.8rem;
 }
 
 .sub-category-icon {
-  color: green;
+  color: rgb(118, 139, 94);
   font-size: 3rem;
-  border: 2px solid #86b07d;
+  border: 2px solid rgb(118, 139, 94);
   border-radius: 5rem;
   padding: 1rem;
 }
 
 .sub-category-box p {
-  color: #9a9a9a;
+  color: #7a7a7a;
   font-weight: bold;
 }

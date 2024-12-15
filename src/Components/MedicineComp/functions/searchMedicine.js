@@ -130,7 +130,7 @@ const SearchMedicine = () => {
   };
 
   return (
-    <div className="add-medication-form">
+    <div className="add-medication-form-section">
       <h2>복용약 추가</h2>
       <div className="add-medicine-form-inside">
         <div className="add-medication-input">
@@ -138,7 +138,7 @@ const SearchMedicine = () => {
             type="text"
             value={query1}
             onChange={(e) => setQuery1(e.target.value)}
-            placeholder="약 이름을 입력하세요"
+            placeholder="약 이름"
           />
           <button onClick={handleSearch}>검색</button>
         </div>
@@ -147,7 +147,7 @@ const SearchMedicine = () => {
             type="text"
             value={query2}
             onChange={(e) => setQuery2(e.target.value)}
-            placeholder="제조사 이름을 입력하세요. (공백가능)"
+            placeholder="제조사 이름"
           />
           <button onClick={handleRefresh}>초기화</button>
         </div>

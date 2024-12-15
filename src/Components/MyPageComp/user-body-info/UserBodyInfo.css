@@ -5,7 +5,7 @@
 .user-body-info-section p {
   /* margin-left: 1rem; */
   font-size: 1.05rem;
-  color: #9a9a9a;
+  color: #7a7a7a;
   font-weight: bold;
 }
 
@@ -18,7 +18,7 @@
 
 .input-group {
   margin-bottom: 1rem;
-  border-bottom: 2px solid #86b07d;
+  border-bottom: 2px solid rgb(118, 139, 94);
   padding-bottom: 0.3rem;
   align-items: center;
   padding-left: 2rem;
@@ -28,7 +28,7 @@
 .input-group label {
   display: flex;
   font-size: 1rem;
-  color: #9a9a9a;
+  color: rgb(118, 139, 94);
   font-weight: bold;
   white-space: nowrap;
   justify-content: center;
@@ -42,11 +42,12 @@
   padding: 0.5rem;
   border: none;
   text-align: center;
+  background: none;
 }
 
 .input-group span {
   font-size: 1rem;
-  color: #9a9a9a;
+  color: rgb(118, 139, 94);
   width: 3rem;
   text-align: right;
 }
@@ -54,20 +55,20 @@
 .submit-btn {
   display: block;
   margin-left: auto;
-  border: 2px solid #86b07d;
+  border: none;
   border-radius: 0.7rem;
-  background: none;
+  background-color: rgb(118, 139, 94);
   padding: 0.3rem;
   width: 4rem;
-  cursor: pointer;
+  color: white;
 }
 
 .submit-btn:active {
-  background-color: #86b07d;
+  background-color: rgb(65, 80, 63);
   color: white;
 }
 
 .submit-btn.action {
-  background-color: #86b07d;
+  background-color: rgb(65, 80, 63);
   color: white;
 }

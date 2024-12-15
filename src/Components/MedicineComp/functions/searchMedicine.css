@@ -1,3 +1,16 @@
+.add-medication-form-section {
+  padding-top: 3.85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.add-medication-form-section h2 {
+  color: rgb(39, 50, 42);
+}
+
 .add-medicine-form-inside {
   display: flex;
   flex-direction: column;
@@ -13,7 +26,7 @@
   width: 80%;
 }
 
-.add-medicine-form h2 {
+.add-medication-form-section h2 {
   margin: 0.5rem;
 }
 
@@ -27,6 +40,7 @@
 
 .add-medication-input input {
   border: none;
+  background: none;
   border-bottom: 1px solid #5e5e5e;
   width: 12rem;
   height: 2rem;
@@ -38,9 +52,9 @@
   color: #aaaaaa;
 }
 
-.add-medication-input input:focus {
+/* .add-medication-input input:focus {
   outline: none;
-}
+} */
 
 .add-medication-input button {
   background-color: #86b07d;
@@ -56,8 +70,8 @@
   cursor: pointer;
 }
 
-.add-medication-input button:hover {
-  background-color: #bae7ae;
+.add-medication-input button:active {
+  background-color: rgb(118, 139, 94);
 }
 
 button.get-back-btn {
@@ -70,13 +84,4 @@ button.get-back-btn {
   font-weight: bold;
   background-color: #dadada;
   margin: 0.5rem;
-}
-
-button.medicine-save-btn {
-  border: 1px solid #aaa;
-  background: none;
-  padding: 0.3rem;
-  margin: 0.3rem;
-  font-size: 0.8rem;
-  font-weight: 500;
 }

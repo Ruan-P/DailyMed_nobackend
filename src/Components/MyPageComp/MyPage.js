@@ -14,22 +14,17 @@ import UserBodyInfo from "./user-body-info/UserBodyInfo";
 
 const MyPage = () => {
   return (
-    <div className="my-page-container">
-      <div>
-        <UserProfile />
-        <SubCategory />
+    <>
+      <div className="my-page">
+        <div>
+          <UserProfile />
+          <SubCategory />
+        </div>
+        <div className="user-body-info">
+          <UserBodyInfo />
+        </div>
       </div>
-      {/* false && (
-                <div>
-                    { 건강 정보 연동하기 - 건강보험공단 바로가기 컴포넌트 }* 건강 정보
-                    연동하기
-                </div>
-            )*/}
-      <div className="user-body-info">
-        {/* 사용자 키/나이/몸무게 직접 입력 칸 */}
-        <UserBodyInfo />
-      </div>
-    </div>
+    </>
   );
 };
 

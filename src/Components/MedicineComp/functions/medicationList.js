@@ -1,9 +1,9 @@
-import React from 'react';
-import './medicationList.css';
+import React from "react";
+import "./medicationList.css";
 
 const MedicationList = ({ medications }) => {
   return (
-    <div>
+    <div className="medicine-list-box">
       {medications.length > 0 ? (
         medications.map((med, index) => (
           <div key={index} className="medicine-list">
@@ -11,8 +11,7 @@ const MedicationList = ({ medications }) => {
             <p>{med.drug_name}</p>
             <button
               onClick={() => alert(med.details)}
-              className="medicine-details-btn"
-            >
+              className="medicine-details-btn">
               자세히
             </button>
           </div>
